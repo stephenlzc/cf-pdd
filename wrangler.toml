@@ -5,9 +5,15 @@ compatibility_date = "2024-01-01"
 [vars]
 NODE_ENV = "production"
 
-# 敏感配置通过 Cloudflare dashboard 或 wrangler secret 设置
-# APP_ID, APP_SECRET, APP_TOKEN, TABLE_ID
-# VALID_PASSWORD_1, VALID_PASSWORD_2, VALID_PASSWORD_3
+# 敏感配置 - 使用 wrangler secret 或 Dashboard 设置
+# 以下为占位符值，部署后请通过 Dashboard 或 wrangler secret 更新
+APP_ID = "placeholder_app_id_cli_xxxxxxxxxxxxx"
+APP_SECRET = "placeholder_app_secret_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+APP_TOKEN = "placeholder_app_token_Agfxxxxxxxxxxxxxxxxxxxxxx"
+TABLE_ID = "placeholder_table_id_tblxxxxxxxxxxxxx"
+VALID_PASSWORD_1 = "placeholder_password_1_xxxxxxxxxxxxx"
+VALID_PASSWORD_2 = "placeholder_password_2_xxxxxxxxxxxxx"
+VALID_PASSWORD_3 = "placeholder_password_3_xxxxxxxxxxxxx"
 
 # 可观察性配置 - Workers 日志和跟踪
 [observability]
